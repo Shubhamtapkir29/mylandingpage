@@ -1,8 +1,11 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f7f9;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
     color: #333;
+    line-height: 1.6;            /* Similar to 1.5 spacing */
+    padding: 40px 60px;          /* Top-bottom 40px, left-right 60px */
+    max-width: 900px;
     text-align: center;
 }
 header {
@@ -21,6 +24,7 @@ h1 {
     font-size: 32px;
     margin-bottom: 10px;
 }
+
 p {
     font-size: 16px;
 }
@@ -92,14 +96,21 @@ footer {
 }
 .disclaimer-section {
   max-width: 900px;
-  margin: 0 auto;
-  border-top: 4px solid #0072ce;
+  border-top: 3px;  /* Optional accent line */
   padding-top: 20px;
+  margin-top: 40px;
 }
 
 .disclaimer-section h2 {
-  color: #0072ce;
-  margin-bottom: 15px;
+    font-size: 18px;
+    color: #0072ce;
+    margin-bottom: 15px;
+}
+
+.disclaimer-section p {
+  font-size: 14px;
+  margin-bottom: 16px;            /* Paragraph spacing */
+  text-align: justify;            /* Improves block text readability */
 }
 
 .disclaimer-section a {
