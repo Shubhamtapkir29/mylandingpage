@@ -1,11 +1,8 @@
 body {
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
-    background-color: #fff;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7f9;
     color: #333;
-    line-height: 1.6;            /* Similar to 1.5 spacing */
-    padding: 40px 60px;          /* Top-bottom 40px, left-right 60px */
-    max-width: 900px;
     text-align: center;
 }
 header {
@@ -24,7 +21,6 @@ h1 {
     font-size: 32px;
     margin-bottom: 10px;
 }
-
 p {
     font-size: 16px;
 }
@@ -96,21 +92,14 @@ footer {
 }
 .disclaimer-section {
   max-width: 900px;
-  border-top: 3px;  /* Optional accent line */
+  margin: 0 auto;
+  border-top: 4px solid #0072ce;
   padding-top: 20px;
-  margin-top: 40px;
 }
 
 .disclaimer-section h2 {
-    font-size: 18px;
-    color: #0072ce;
-    margin-bottom: 15px;
-}
-
-.disclaimer-section p {
-  font-size: 14px;
-  margin-bottom: 16px;            /* Paragraph spacing */
-  text-align: justify;            /* Improves block text readability */
+  color: #0072ce;
+  margin-bottom: 15px;
 }
 
 .disclaimer-section a {
@@ -121,14 +110,13 @@ footer {
 .disclaimer-section a:hover {
   text-decoration: underline;
 }
-
-/*
-
+  
+  
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #5e5b71; 
+    background-color: #5e5b71; /* soft purple-grey */
     color: white;
     padding: 10px 16px;
     border-radius: 10px;
@@ -153,4 +141,4 @@ footer {
     border-radius: 50%;
     display: inline-block;
   }
-  */
+  
