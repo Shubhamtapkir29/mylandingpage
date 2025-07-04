@@ -1,2 +1,6 @@
-# Force all to https://www.opendemataccount.in
-/* https://www.opendemataccount.in/:splat 301!
+# HTTP → HTTPS
+http://www.opendemataccount.in/* https://www.opendemataccount.in/:splat 301!
+http://opendemataccount.in/* https://www.opendemataccount.in/:splat 301!
+
+# non-www → www
+https://opendemataccount.in/* https://www.opendemataccount.in/:splat 301!
