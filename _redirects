@@ -1,1 +1,5 @@
 /*  https://www.opendemataccount.in/:splat  301!
+# Force HTTPS and www
+http://opendemataccount.in/*    https://www.opendemataccount.in/:splat  301!
+https://opendemataccount.in/*   https://www.opendemataccount.in/:splat  301!
+http://www.opendemataccount.in/*  https://www.opendemataccount.in/:splat  301!
